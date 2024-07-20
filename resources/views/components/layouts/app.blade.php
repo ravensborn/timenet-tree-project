@@ -6,6 +6,24 @@
     <title>Tree Selling Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     @livewireStyles
+    <style>
+        /* Small devices (Phones, 600pxand down) -- this would display the text at 5.0rem on phones */
+
+        @media only screen and (max-width: 600px) {
+            .fix-size {
+                font-size: 5.0rem;
+            }
+        }
+
+
+        /* Large devices (laptops/desktops, 992px and up) -- This would display the text at 10.0rem on laptops and larger screens */
+
+        @media only screen and (min-width: 992px) {
+            .fix-size {
+                font-size: 10.0rem;
+            }
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
@@ -13,7 +31,10 @@
         <a class="navbar-brand" href="{{ route('index') }}">
            <div class="d-flex justify-content-center align-items-center">
                <img src="{{ asset('logos/krg.png') }}" alt="Logo" width="60" height="auto" class="d-inline-block align-text-top">
-               KRG Agriculture and Water Resources
+
+               <div class="fix-size">
+                   Ministry of Agriculture and Water Resources
+               </div>
            </div>
         </a>
     </div>
