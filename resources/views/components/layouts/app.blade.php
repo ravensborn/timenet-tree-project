@@ -11,7 +11,7 @@
 
         @media only screen and (max-width: 600px) {
             .fix-size {
-                font-size: 5.0rem;
+                font-size: 14px;
             }
         }
 
@@ -20,7 +20,7 @@
 
         @media only screen and (min-width: 992px) {
             .fix-size {
-                font-size: 10.0rem;
+                font-size: 24px;
             }
         }
     </style>
