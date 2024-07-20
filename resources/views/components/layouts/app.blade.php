@@ -13,7 +13,7 @@
         <a class="navbar-brand" href="{{ route('index') }}">
            <div class="d-flex justify-content-center align-items-center">
                <img src="{{ asset('logos/krg.png') }}" alt="Logo" width="60" height="auto" class="d-inline-block align-text-top">
-               Ministry of Agriculture and Water Resources
+               KRG Agriculture and Water Resources
            </div>
         </a>
     </div>
