@@ -20,7 +20,7 @@ services:
 
   database:
     container_name: ${DOCKER_DB_CONTAINER_NAME}
-    image: mysql:8.0
+    image: mysql:8.4
     environment:
       - MYSQL_DATABASE=${DB_DATABASE}
       - MYSQL_USER=${DB_USERNAME}
