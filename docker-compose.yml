@@ -28,8 +28,6 @@ services:
       - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
     volumes:
       - ./docker/mysql/db-data:/var/lib/mysql
-    ports:
-        - "33065:3306"
     networks:
       - laravel-network
 
